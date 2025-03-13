@@ -2,14 +2,32 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
+header {
+  display: flex;
+}
+
 img {
   width: 100px;
   height: 100px;
 }
 
+ul {
+  list-style-type: none;
+}
+
+.pics {
+
+}
+
+.text {
+  
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
