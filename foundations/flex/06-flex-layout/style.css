@@ -19,6 +19,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px 15px;
 }
 
 input {
@@ -34,20 +35,24 @@ a {
 }
 
 ul {
+  display: flex;
   list-style-type: none;
   margin: 0;
   padding: 0;
+  gap: 20px;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
+  padding: 20px;
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
   background-color: #eeeeee;
+  padding: 20px;
 }
 
 .content {
@@ -55,4 +60,6 @@ ul {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  flex: 1;
+  gap: 15px;
 }
