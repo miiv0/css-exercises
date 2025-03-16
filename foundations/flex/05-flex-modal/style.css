@@ -71,14 +71,10 @@ button.cancel {
 
 .container1 {
   display: flex;
-  justify-content: space-between;
   padding: 10px;
-  flex-direction: column;
 }
 
 .container2 {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  padding: 10px;
 }
